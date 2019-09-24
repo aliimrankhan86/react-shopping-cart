@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  border: 0.2rem solid black;
+  overflow: hidden;
+}
+
+
+.App h1 {
+  margin: 15px;
+}
+
+.left,
+.middle, .right {
+  width: 33.33%;
+  float: left;
+  background: lightblue;
+  min-height: 100vh;
+  border:
+}
+
+
+.inventory {
+  overflow: auto;
+}
+
+#form {
+  width: 100%;
+  overflow: auto;
+}
+
+#form input {
+  width: calc(33.33% - 10px);
+  float: left;
+  margin: 0 10px 10px;
+  padding: 8px;
+}
+
+#form select {
+  width: 20%;
+  padding: 8px;
+}
+
+#form input[type=submit] {
+  background: blue;
+  color: white;
+  float: none;
+}
+
+.order {
+  background: mediumturquoise;
+  color: black;
+  border: 0.2rem solid black;
+  margin-bottom: 1rem;
+}
+
+.addtoorder {
+  background: red;
+  padding: 8px;
+  color: white;
+  margin: 5px;
+  border: none;
+}
+
+.summary {
+  margin-bottom: 20px;
+  border-bottom: 0.2rem solid black;
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
